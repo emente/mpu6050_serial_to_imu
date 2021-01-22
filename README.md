@@ -15,7 +15,7 @@ See http://diyhacking.com/arduino-mpu-6050-imu-sensor-tutorial/ for the electric
 
 Then program the arduino with the arduino/MPU6050/MPU6050.ino file from this repository.
 
-You might want to measure and set the offsets for your MPU6050 chip: http://www.i2cdevlib.com/forums/topic/96-arduino-sketch-to-automatically-calculate-mpu6050-offsets/.
+You might want to measure and set the offsets for your MPU6050 chip using the supplied sketch
 
 After you have measured the offset values you can change them in the MPU6050.ino file (after the line `// supply your own gyro offsets here, scaled for min sensitivity`).
 
