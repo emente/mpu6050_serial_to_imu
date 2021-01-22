@@ -21,6 +21,7 @@ After you have measured the offset values you can change them in the MPU6050.ino
 
 The launchfile demo.launch is included to start the node and display some imu values in rviz, but you might need to change the serial port name to point to your arduino.
 
+You may need to install ros-melodic-serial http://wiki.ros.org/serial
 
 #### Published Topics
 
